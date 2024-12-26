@@ -6,7 +6,7 @@ name: answay
 description: Personal Ublue Sway experimets.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/wayblueorg/sway:latest
+base-image: ostree-image-signed:docker://ghcr.io/wayblueorg/sway:latest
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
