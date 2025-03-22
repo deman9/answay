@@ -24,7 +24,6 @@ modules:
     install:
       - tmux
       - neovim
-      - zsh
       - SwayNotificationCenter
       - starship
       - nerd-fonts
