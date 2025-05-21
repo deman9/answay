@@ -22,7 +22,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-41/che-nerd-fonts-fedora-41.repo
     install:
-      - chezmoi
       - tmux
       - neovim
       - SwayNotificationCenter
